@@ -1,0 +1,33 @@
+{
+  "name": "cordova-app",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install && ./init-repo.sh"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "jquery": true
+    },
+    "globals": {
+      "angular": true,
+      "Camera": true,
+      "Materialize": true
+    }
+  },
+  "author": "stigok",
+  "license": "CC0",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^0.4.6",
+    "grunt-growl": "^0.1.5"
+  }
+}
